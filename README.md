@@ -87,7 +87,7 @@ These arguments can be accessed in your C++ code via `argv`. For example, `argv[
 For autograding to work, your program's output must follow this format:
 
 1.  Each **walker** process must print exactly one line containing the word **"finished"** when its walk is complete.
-2.  The **controller** process should not print the word "finished". It can print other summary information after all walkers are done.
+2.  The **controller** process should print "Controller: All X walkers have finished.". It can print other summary information after all walkers are done.
 
 ### Sample Run
 
@@ -107,7 +107,7 @@ Rank 3: Walker finished in 152 steps.
 Rank 1: Walker finished in 44 steps.
 Rank 4: Walker finished in 380 steps.
 Rank 2: Walker finished in 88 steps.
-Controller: All 4 walkers have completed their walks.
+Controller: All 4 walkers have finished..
 ```
 
 Good luck\! 👍
